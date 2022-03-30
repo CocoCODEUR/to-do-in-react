@@ -1,13 +1,107 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+h1 {
+  display: flex;
+
+  justify-content: center;
+  margin: 1em;
+  margin-top: 2em;
+  font-family: "Red Hat Mono", monospace;
+  font-size: xx-large;
+}
+h2 {
+  display: flex;
+
+  justify-content: flex-start;
+  margin: 1em;
+  margin-top: 2em;
+}
+.urgent {
+  border: solid black 5px;
+  padding: 0.7em;
+  margin-left: 10%;
+  margin-right: 30%;
+  border-radius: 5%;
+  text-align: left;
+  border-color: white;
+  background-color: white;
+  font-size: 18px;
+}
+.aFaire {
+  border: solid black 5px;
+  padding: 0.7em;
+  margin-left: 10%;
+  margin-right: 30%;
+  border-radius: 5%;
+  text-align: left;
+  border-color: white;
+  background-color: white;
+  font-size: 18px;
+}
+.chill {
+  border: solid black 5px;
+  padding: 0.7em;
+  margin-left: 10%;
+  margin-right: 30%;
+  border-radius: 5%;
+  text-align: left;
+  border-color: white;
+  background-color: white;
+  font-size: 18px;
+}
+.container_add_task {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+}
+.select_option {
+  width: 50%;
+  padding: 12px 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: none;
+  border-bottom: 3px solid black;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+.input_text {
+  width: 50%;
+  padding: 12px 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: none;
+  border-bottom: 3px solid black;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+.input_date {
+  width: 50%;
+  padding: 12px 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: none;
+  border-bottom: 3px solid black;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+.input_submit {
+  width: 20%;
+  padding: 12px 20px;
+  margin-left: 40%;
+  margin-right: 40%;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  border-radius: 7px;
 }
